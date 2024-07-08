@@ -12,14 +12,17 @@ namespace DevelopmentChallenge.Data.Classes.Figuras
 {
     public class Trapecio : FormaGeometrica, IFormaGeometrica
     {
-        public Trapecio(decimal ladoSuperior, decimal ladoInferior, decimal altura)
+        private readonly decimal _altura;
+
+        public Trapecio(decimal ladoMayor, decimal ladoMenor, decimal altura)
             : base(
                     TipoForma.Trapecio,
-                    new List<decimal>() { ladoSuperior, ladoSuperior, ladoInferior, ladoInferior },
-                    altura
+                    new List<decimal>() { ladoMayor, ladoMayor, ladoMenor, ladoMenor }
                   )
-        { }
+        {
+            _altura = altura;
+        }
 
-        public decimal CalcularArea() => ((base.Lados[0] + base.Lados[2]) / 2) * base._altura;
+        public decimal CalcularArea() => ((base.Lados[0] + base.Lados[2]) / 2) * _altura;
     }
 }

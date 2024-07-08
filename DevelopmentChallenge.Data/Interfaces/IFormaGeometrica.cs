@@ -7,7 +7,7 @@ namespace DevelopmentChallenge.Data.Interfaces
     public interface IFormaGeometrica
     {
         TipoForma Forma { get; }
-        decimal Altura { get; }
+        decimal Apotema { get; }
         List<decimal> Lados { get; }
         decimal CalcularArea();
         decimal CalcularPerimetro();

@@ -22,7 +22,7 @@ namespace DevelopmentChallenge.Data.Classes
 {
     public class FormaGeometrica
     {
-        protected readonly decimal _altura;
+        protected readonly decimal _apotema;
         protected readonly TipoForma _tipoForma;
         private readonly List<decimal> _lados;
 
@@ -34,7 +34,7 @@ namespace DevelopmentChallenge.Data.Classes
             {
                 _tipoForma = tipoForma;
                 _lados = new List<decimal>() { lado };
-                _altura = 0;
+                _apotema = 0;
             }
             else
             {
@@ -44,7 +44,7 @@ namespace DevelopmentChallenge.Data.Classes
 
         protected FormaGeometrica(TipoForma tipoForma, List<decimal> lados) : this(tipoForma, lados, 0) { }
 
-        protected FormaGeometrica(TipoForma tipoForma, List<decimal> lados, decimal altura)
+        protected FormaGeometrica(TipoForma tipoForma, List<decimal> lados, decimal apotema)
         {
             if (!lados.Any())
             {
@@ -56,7 +56,7 @@ namespace DevelopmentChallenge.Data.Classes
             }
             _tipoForma = tipoForma;
             _lados = lados;
-            _altura = altura;
+            _apotema = apotema;
         }
 
         #endregion
@@ -68,9 +68,9 @@ namespace DevelopmentChallenge.Data.Classes
             get => _tipoForma;
         }
 
-        public decimal Altura
+        public decimal Apotema
         {
-            get => _altura;
+            get => _apotema;
         }
 
         public List<decimal> Lados
