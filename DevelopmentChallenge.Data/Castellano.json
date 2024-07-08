@@ -1,0 +1,58 @@
+[
+  {
+    "Id": "ListaVacia",
+    "Texto": "<h1>Lista vacía de formas!</h1>"
+  },
+  {
+    "Id": "ReporteFormas",
+    "Texto": "<h1>Reporte de Formas</h1>"
+  },
+  {
+    "Id": "Total",
+    "Texto": "TOTAL"
+  },
+  {
+    "Id": "Formas",
+    "Texto": "Formas"
+  },
+  {
+    "Id": "Perimetro",
+    "Texto": "Perímetro"
+  },
+  {
+    "Id": "Area",
+    "Texto": "Área"
+  },
+  {
+    "Id": "Cuadrado",
+    "Texto": "Cuadrado"
+  },
+  {
+    "Id": "Cuadrado_plural",
+    "Texto": "Cuadrados"
+  },
+  {
+    "Id": "Circulo",
+    "Texto": "Círculo"
+  },
+  {
+    "Id": "Circulo_plural",
+    "Texto": "Círculos"
+  },
+  {
+    "Id": "TrianguloEquilatero",
+    "Texto": "Triángulo"
+  },
+  {
+    "Id": "TrianguloEquilatero_plural",
+    "Texto": "Triángulos"
+  },
+  {
+    "Id": "Trapecio",
+    "Texto": "Trapecio"
+  },
+  {
+    "Id": "Trapecio_plural",
+    "Texto": "Trapecios"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "Id": "ListaVacia",
+    "Texto": "<h1>Liste vide de Formes!</h1>"
+  },
+  {
+    "Id": "ReporteFormas",
+    "Texto": "<h1>Rapport de Formes</h1>"
+  },
+  {
+    "Id": "Total",
+    "Texto": "TOTAL"
+  },
+  {
+    "Id": "Formas",
+    "Texto": "Formes"
+  },
+  {
+    "Id": "Perimetro",
+    "Texto": "Périmètre"
+  },
+  {
+    "Id": "Area",
+    "Texto": "Aire"
+  },
+  {
+    "Id": "Cuadrado",
+    "Texto": "Carré"
+  },
+  {
+    "Id": "Cuadrado_plural",
+    "Texto": "Carrés"
+  },
+  {
+    "Id": "Circulo",
+    "Texto": "Cercle"
+  },
+  {
+    "Id": "Circulo_plural",
+    "Texto": "Cercles"
+  },
+  {
+    "Id": "TrianguloEquilatero",
+    "Texto": "Triangle"
+  },
+  {
+    "Id": "TrianguloEquilatero_plural",
+    "Texto": "Triangles"
+  },
+  {
+    "Id": "Trapecio",
+    "Texto": "Trapèze"
+  },
+  {
+    "Id": "Trapecio_plural",
+    "Texto": "Trapèzes"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "Id": "ListaVacia",
+    "Texto": "<h1>Empty list of shapes!</h1>"
+  },
+  {
+    "Id": "ReporteFormas",
+    "Texto": "<h1>Shapes report</h1>"
+  },
+  {
+    "Id": "Total",
+    "Texto": "TOTAL"
+  },
+  {
+    "Id": "Formas",
+    "Texto": "Shapes"
+  },
+  {
+    "Id": "Perimetro",
+    "Texto": "Perimeter"
+  },
+  {
+    "Id": "Area",
+    "Texto": "Area"
+  },
+  {
+    "Id": "Cuadrado",
+    "Texto": "Square"
+  },
+  {
+    "Id": "Cuadrado_plural",
+    "Texto": "Squares"
+  },
+  {
+    "Id": "Circulo",
+    "Texto": "Circle"
+  },
+  {
+    "Id": "Circulo_plural",
+    "Texto": "Circles"
+  },
+  {
+    "Id": "TrianguloEquilatero",
+    "Texto": "Triangle"
+  },
+  {
+    "Id": "TrianguloEquilatero_plural",
+    "Texto": "Triangles"
+  },
+  {
+    "Id": "Trapecio",
+    "Texto": "Trapezium"
+  },
+  {
+    "Id": "Trapecio_plural",
+    "Texto": "Trapeziums"
+  }
+]
